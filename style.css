@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 5rem;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-size: large;
+}
+
+/* Navigation Bar */
+
+.nav-bar {
+  background-color: orange;
+  background-size: cover;
+  font-size: 30px;
+  list-style-type: none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav-bar li a {
+  font-weight: bold;
+  padding: 20px 40px;
+}
+
+.nav-bar li {
+  color: white;
+}
+
+.nav-bar li:hover {
+  color: #2d6d24;
+}
+
+/* Header */
+.main-header {
+  height: 100vh;
+  background-image: url(./pictures/autumn-plant-care-houseplants-winter-crop-1440x1440.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header h1 {
+  font-size: 65px;
+  color: black;
+  font-weight: bold;
+  margin-top: 150px;
+}
+
+.main-header p {
+  font-size: 40px;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+/* About */
+
+.about-section {
+  min-height: 100vh;
+  padding-bottom: 150px;
+  color: white;
+  background-color: rgb(124, 101, 58);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section img {
+  width: 600px;
+  border-radius: 10px 100px / 120px;
+}
+.about-section h2 {
+  font-size: 70px;
+  color: rgb(223, 196, 146);
+  font-display: spaced;
+  margin: 50px 0;
+}
+
+.about-section h3 {
+  font-size: 40px;
+  font-display: spaced;
+  margin: 55px 0;
+}
+
+.about-section p {
+  font-size: 23px;
+  font-display: spaced;
+  margin: 5px 0;
+  padding: 0 200px;
+}
+
+/* Plant Care */
+
+.box-bottom {
+  min-height: 100vh;
+  padding-bottom: 150px;
+  color: #1e2f23;
+  background-image: url(./pictures/plant-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-bottom h2 {
+  font-size: 55px;
+  margin: 50px 0;
+}
+
+/* Footer - Socials */
+
+.main-footer {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #768948;
+}
+
+.main-footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.main-footer ul a {
+  padding: 20px;
+  margin: 50px;
+  font-size: 30px;
+  color: orange;
+}
+
+.main-footer ul a:hover {
+  color: #2d6d24;
+}
